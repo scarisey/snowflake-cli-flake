@@ -2,9 +2,11 @@
 
 A Nix flake for the [Snowflake CLI](https://github.com/snowflakedb/snowflake-cli) - a command-line tool for developer-centric workloads in Snowflake.
 
+Initiated with AI. Its work is based on the existing one in [nixpkgs](https://github.com/NixOS/nixpkgs/blob/bf9dd6901a76bf675c469717ac603ed974f10881/pkgs/by-name/sn/snowflake-cli/package.nix) (as mentionned on AGENTS.md).
+
 ## Features
 
-- ✅ **Latest version**: Currently packaging Snowflake CLI v3.14.0
+- ✅ **Latest version**: Automatically updated every week if needed
 - 🐚 **Shell completions**: Automatic generation of bash, zsh, and fish completions
 - 🔄 **Auto-update script**: Easily update to the latest upstream release
 - 🏗️ **Multi-platform**: Supports x86_64-linux, aarch64-linux, x86_64-darwin, and aarch64-darwin
@@ -148,6 +150,7 @@ Shell completions are automatically generated during the build process for:
 ## Resources
 
 - **Upstream repository**: https://github.com/snowflakedb/snowflake-cli
+- **Originally packaged in Nixpkgs**: https://github.com/NixOS/nixpkgs/blob/bf9dd6901a76bf675c469717ac603ed974f10881/pkgs/by-name/sn/snowflake-cli/package.nix
 - **Official documentation**: https://docs.snowflake.com/en/developer-guide/snowflake-cli-v2/index
 - **Release notes**: https://github.com/snowflakedb/snowflake-cli/blob/main/RELEASE-NOTES.md
 
